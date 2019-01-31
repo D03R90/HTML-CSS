@@ -1,0 +1,46 @@
+{
+  "amount": 260,
+  "countGoods": 5,
+  "contents": [
+    {
+      "src": "Img/product_women/Layer_44.jpg",
+      "alt": "Blaze Leggings",
+      "id_product": 101,
+      "product_name": "Blaze Leggings",
+      "price": 52,
+      "quantity": 1
+    },
+    {
+      "src": "Img/product_women/Layer_45.jpg",
+      "alt": "Alexa Sweater",
+      "id_product": 102,
+      "product_name": "Alexa Sweater",
+      "price": 52,
+      "quantity": 1
+    },
+    {
+      "src": "Img/product_women/Layer_46.jpg",
+      "alt": "Agnes Top",
+      "id_product": 103,
+      "product_name": "Agnes Top",
+      "price": 52,
+      "quantity": 1
+    },
+    {
+      "src": "Img/product_women/Layer_47.png",
+      "alt": "Sylva Sweater",
+      "id_product": 104,
+      "product_name": "Sylva Sweater",
+      "price": 52,
+      "quantity": 1
+    },
+    {
+      "src": "Img/product/Layer_44.jpg",
+      "alt": "Mango People T-shirt",
+      "id_product": 105,
+      "product_name": "Mango People T-shirt",
+      "price": 52,
+      "quantity": 1
+    }
+  ]
+}

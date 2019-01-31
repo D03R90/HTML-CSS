@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout</title>
+    <link rel="shortcut icon" href="Img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div class="header-left">
+                <a class="logo" href="index.html">
+                    <img src="Img/logo.png" alt="logo"><span class="logo-text">BRAN<span
+                        class="logo-text-last-letter">D</span></span>
+                </a>
+                <form class="form" action="#">
+                    <div class="browse-box">
+                        <button class="browse" type="button">Browse</button>
+                        <div class="drop-down">
+                            <h3 class="mega-menu__heading">Women</h3>
+                            <ul>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Dresses</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Tops</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Jackets/Coats</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Blazers</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Denim</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Leggings/Pants</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Skirts/Shorts</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Accessories</a></li>
+                            </ul>
+                            <h3 class="mega-menu__heading">Men</h3>
+                            <ul>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Tees/Tank tops</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Shirts/Polos</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Sweaters</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Sweatshirts/Hoodies</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Blazers</a></li>
+                                <li class="mega-menu__list"><a class="mega-menu__link" href="#">Jackets/vests</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input class="text-search" type="text" placeholder="Search for Item...">
+                    <button class="search" type="submit"><img src="Img/icons/icon-search.png" alt="search"></button>
+                </form>
+            </div>
+            <div class="header-right">
+                <div class="cart-box transform_scale">
+                    <a href="shopping_cart.html"><img src="Img/icons/cart.svg" alt="cart"></a>
+                    <div class="cart-drop">
+                        <div id="cart">
+                        </div>
+                        <a href="checkout.html" class="cart-product__checkout">Checkout</a>
+                        <a href="shopping_cart.html" class="cart-product__go-to-cart">Go&nbsp;to&nbsp;cart</a>
+                    </div>
+                </div>
+                <a class="my-acc" href="checkout.html">My Account</a>
+            </div>
+        </div>
+    </header>
+    <nav class="navigation">
+        <ul class="menu container">
+            <li class="menu__list"><a class="menu__link" href="index.html">Home</a></li>
+            <li class="menu__list"><a class="menu__link" href="product.html">Men</a></li>
+            <li class="menu__list"><a class="menu__link" href="single_page.html">Women</a>
+                <div class="mega-menu">
+                    <div class="mega-flex">
+                        <h3 class="mega-menu--heading">Women</h3>
+                        <ul>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Dresses</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Tops</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Sweaters/Knits</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Jackets/Coats</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Blazers</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Denim</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Leggings/Pants</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Skirts/Shorts</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-flex">
+                        <h3 class="mega-menu--heading">Women</h3>
+                        <ul>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Dresses</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Tops</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Sweaters/Knits</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Jackets/Coats</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Blazers</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Denim</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Leggings/Pants</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Skirts/Shorts</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-flex">
+                        <h3 class="mega-menu--heading">Women</h3>
+                        <ul>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Dresses</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Tops</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Sweaters/Knits</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Jackets/Coats</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Blazers</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Denim</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Leggings/Pants</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Skirts/Shorts</a></li>
+                            <li class="mega-menu--list"><a class="mega-menu--link" href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu__list"><a class="menu__link" href="#">Kids</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Accoseriese</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Featured</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Hot Deals </a></li>
+        </ul>
+    </nav>
+    <div class="newArrivals">
+        <div class="leftBlock container">
+            <h2>New Arrivals </h2>
+            <nav class="rightBlock">
+                <ul>
+                    <li><a href="index.html">Home</a>&nbsp;/</li>
+                    <li><a href="product.html">Men</a>&nbsp;/</li>
+                    <li><a href="shopping_cart.html">New Arrivals</a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="checkout container">
+        <details open>
+            <summary>01. shipping adress</summary>
+            <div class="shipping-address">
+                <form action="#">
+                    <p class="invite">Checkout as&nbsp;a&nbsp;guest or&nbsp;register</p>
+                    <p class="invite-sub">Register with&nbsp;us for future convenience</p>
+                    <div class="radio-box">
+                        <div class="radio top-radio">
+                            <label for="guest" class="radio-button-label">checkout as&nbsp;guest
+                                <input type="radio" class="radio-button" id="guest" name="checkout__radio">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="register" class="radio-button-label">register
+                                <input type="radio" class="radio-button" id="register" name="checkout__radio" checked="">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="invite">register and save time!</p>
+                    <p class="invite-sub">Register with&nbsp;us for future convenience</p>
+                    <div class="fast-n-easy">
+                        <p class="invite-sub">" Fast and easy checkout</p>
+                        <p class="invite-sub">" Easy access to&nbsp;your order history and status</p>
+                    </div>
+                    <button class="buttonStrCheckout" type="submit">Continue</button>
+                </form>
+                <form action="#">
+                    <p class="invite">Already registed?</p>
+                    <p class="invite-sub">Please log in&nbsp;below</p>
+                    <div class="authorizationField">
+                        <div class="top-radio">
+                            <label for="register-email" class="reg-details">EMAIL&nbsp;ADDRESS <span>*</span></label>
+                            <br>
+                            <input type="email" id="register-email" autocomplete="on" required>
+                        </div>
+                        <div>
+                            <label for="register-password" class="reg-details">PASSWORD <span>*</span></label> <br>
+                            <input type="password" id="register-password" required>
+                        </div>
+                    </div>
+                    <p class="required">* Required Fileds</p>
+                    <button class="buttonStrCheckout" type="submit">Log in</button>
+                    <a href="#" class="forgot">Forgot Password ?</a>
+                </form>
+            </div>
+        </details>
+        <details class="wrapCheckout">
+            <summary>02. billing information</summary>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            </p>
+        </details>
+        <details class="wrapCheckout">
+            <summary>03. shipping information</summary>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            </p>
+        </details>
+        <details class="wrapCheckout">
+            <summary>04. shipping method</summary>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            </p>
+        </details>
+        <details class="wrapCheckout">
+            <summary>05. payment information</summary>
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+
+            <p>
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+                a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi
+                vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+            </p>
+        </details>
+        <details class="wrapCheckout">
+            <summary>06. order review</summary>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            </p>
+        </details>
+    </div>
+    <div class="comments">
+        <article class="comments-left">
+            <div class="commentsimg">
+                <a href="#">
+                    <img src="Img/Face.png" alt="face">
+                </a>
+            </div>
+            <div class="commentscontent">
+                <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis
+                    neque sed pretium”</i>
+                <h3>Bin Burhan</h3>
+                <p>Dhaka, Bd</p>
+            </div>
+        </article>
+        <article class="comments-right">
+            <div class="commentsSubscribe">
+                <h2>SUBSCRIDE</h2>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+            </div>
+            <input class="commentsinput" type="email" placeholder="Enter Your Email" required>
+            <button class="commentsbutton">Subscribe</button>
+        </article>
+    </div>
+    <footer>
+        <div class="top-footer container">
+            <article class="brand">
+                <h2>
+                    <a class="logo" href="index.html">
+                        <img src="Img/logo.png" alt="logo"><span class="logo-text">BRAN<span
+                            class="logo-text-last-letter">D</span></span>
+                    </a>
+                </h2>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate
+                    an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.<br><br>
+
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.<br>
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.<br><br></p>
+            </article>
+            <article>
+                <h4>COMPANY</h4>
+                <nav class="foot-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How It&nbsp;Works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article>
+                <h4>INFORMATION</h4>
+                <nav class="foot-nav">
+                    <ul>
+                        <li><a href="#">Terms &amp;&nbsp;Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">How to&nbsp;Buy</a></li>
+                        <li><a href="#">How to&nbsp;Sell</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article>
+                <h4>SHOP CATEGORY</h4>
+                <nav class="foot-nav">
+                    <ul>
+                        <li><a href="product.html">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Children</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Browse All</a></li>
+                    </ul>
+                </nav>
+            </article>
+        </div>
+        <div class="bottom-footer">
+            <div class="bottom-footer-flex container">
+                <p>&copy;&nbsp;2018 Brand All Rights Reserved.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+    <!--<script src="js/Product.js"></script>-->
+    <script src="js/Cart.js"></script>
+    <script src="js/Feedback.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
