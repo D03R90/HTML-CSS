@@ -1,0 +1,248 @@
+{
+    "goods": [{
+        "id": 127,
+        "imageSrc": "./img/g1.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.50,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "m"
+      },
+      {
+        "id": 128,
+        "imageSrc": "./img/g2.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 129,
+        "imageSrc": "./img/g3.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "m"
+      },
+      {
+        "id": 130,
+        "imageSrc": "./img/g4.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+  
+        "id": 131,
+        "imageSrc": "./img/g5.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.50,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 132,
+        "imageSrc": "./img/g6.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 133,
+        "imageSrc": "./img/g7.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "m"
+      },
+      {
+        "id": 134,
+        "imageSrc": "./img/g8.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "m"
+      },
+      {
+        "id": 135,
+        "imageSrc": "./img/single_product1.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 136,
+        "imageSrc": "./img/single_product2.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 137,
+        "imageSrc": "./img/single_product3.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 138,
+        "imageSrc": "./img/single_product4.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XXL",
+        "rating": 3,
+        "sex": "w"
+      },
+      {
+        "id": 139,
+        "imageSrc": "./img/Product_1.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "brown",
+        "size": "XL",
+        "rating": 3,
+        "sex": "m"
+      },
+      {
+        "id": 140,
+        "imageSrc": "./img/Product_2.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "gray",
+        "size": "XL",
+        "rating": 5,
+        "sex": "m"
+      },
+      {
+        "id": 141,
+        "imageSrc": "./img/Product_3.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "blue",
+        "size": "XL",
+        "rating": 4,
+        "sex": "m"
+      },
+      {
+        "id": 142,
+        "imageSrc": "./img/Product_5.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "blue",
+        "size": "XL",
+        "rating": 4,
+        "sex": "m"
+      },
+      {
+        "id": 143,
+        "imageSrc": "./img/g1.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.50,
+        "quantaty": 1,
+        "color": "red",
+        "size": "XL",
+        "rating": 4,
+        "sex": "m"
+      },
+      {
+        "id": 144,
+        "imageSrc": "./img/Product_7.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "gray",
+        "size": "XL",
+        "rating": 4,
+        "sex": "m"
+      },
+      {
+        "id": 145,
+        "imageSrc": "./img/Product_8.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Mango People T-shirt",
+        "price": 52.00,
+        "quantaty": 1,
+        "color": "brown",
+        "size": "XL",
+        "rating": 4,
+        "sex": "m"
+      },
+      {
+        "id": 146,
+        "imageSrc": "./img/g1.jpg",
+        "imageAlt": "image of product in cart",
+        "productName": "Rebox Zane",
+        "price": 52.50,
+        "quantaty": 1,
+        "color": "red",
+        "size": "M",
+        "rating": 2,
+        "sex": "m"
+      }
+  
+  
+  
+  
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+  "totalQuantaty": 3,
+  "totalAmount": 1372,
+  "goods": [{
+
+      "id": 123,
+      "imageSrc": "./img/Goods1_cart.jpg",
+      "imageAlt": "image of product in cart",
+      "productName": "Rebox Zane",
+      "price": 250,
+      "quantaty": 1,
+      "color": "red",
+      "size": "XXL",
+      "rating": 3
+    },
+    {
+      "id": 124,
+      "imageSrc": "./img/Cart-drop-down-img2.jpg",
+      "imageAlt": "image of product in cart",
+      "productName": "Rebox Zane",
+      "price": 561,
+      "quantaty": 2,
+      "color": "white",
+      "size": "XL",
+      "rating": 4
+    }
+  ]
+}
